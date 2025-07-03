@@ -1,7 +1,9 @@
+import Navbar from "../components/Navbar.jsx";
+
 const  Home= ()=> {
   return (
     <>
-    <h1>hi</h1>
+<Navbar></Navbar>
 
     </>
   )
