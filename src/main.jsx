@@ -7,11 +7,13 @@ import Dashboard from './pages/Dashboard.jsx';
 import Home from "./Pages/Home.jsx";
 import Error from "./Pages/Error.jsx";
 import Profile from "./Pages/Profile.jsx";
+import Navbar from "./components/Navbar.jsx";
 
 const root = createRoot(document.getElementById('root'));
 
 root.render(
     <BrowserRouter>
+        <Navbar />
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
