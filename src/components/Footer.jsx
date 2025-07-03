@@ -1,9 +1,15 @@
-export const  Footer = ()=> {
+const  Footer = ()=> {
     return (
-        <footer>
-            <h1>hi</h1>
+        <>
+            <nav>
+                <div>
+                    <h1>LOGO</h1>
+                </div>
+            </nav>
 
-        </footer>
+        </>
     )
 }
+
+export default Footer
 

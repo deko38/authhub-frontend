@@ -1,8 +1,7 @@
 const  Error = ()=> {
     return (
         <>
-            <h1>hi</h1>
-
+            <h1>error</h1>
         </>
     )
 }
